@@ -2,7 +2,7 @@ from gpt4all import GPT4All
 import pdfplumber
 
 # Load GPT4All model
-model = GPT4All("C:/Users/Kartik/Desktop/GEN8/aimodel/Llama-3.2-3B-Instruct-Q4_0.gguf")
+model = GPT4All(" your GP4ALL MODEL ")
 
 def extract_text_from_pdf(pdf_path):
     text = ""
